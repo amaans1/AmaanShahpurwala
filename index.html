@@ -1,0 +1,71 @@
+<!-- Jordan Baron, Amaan Shahpurwala, Jaana Tabalon -->
+<!-- ARTG 2260: Programming Basics -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Your Spending Log</title>
+  </head>
+  <body>
+    <!-- Container for entire page -->
+    <div id="container">
+      <div id="header">Your Spending Log</div>
+      <div id="subheader">Enter the things you have spent money on, how much you spent,  <br>when you made the purchase, and what kind of purchase it is.</div>
+
+      <!-- Container for new item input fields  -->
+      <div id="add-item-container">
+        <div id="add-description-input">
+          <input type="text" id="input-description" placeholder = "Description"></input>
+        </div>
+        <div id="add-price-input">
+          <input type="number" id="input-price" placeholder = "Amount" min = 0></input>
+        </div>
+        <div id="add-date-input">
+          <input type="date" id="input-date" placeholder = "Date"></input>
+        </div>
+        <div id="add-category-select">
+          <select name = "category" id="input-category">
+            <option value="Other" selected>Other</option>
+            <option value="Education">Education</option>
+            <option value="Entertainment">Entertainment</option>
+            <option value="Food">Food</option>
+            <option value="Insurance">Insurance</option>
+            <option value="Rent">Rent</option>
+            <option value="Shopping">Shopping</option>
+            <option value="Transportation">Transportation</option>
+            <option value="Utilities">Utilities</option>        
+          </select>
+        </div>
+        <div id="add-item-button">
+          <button id="add-item">Add Item</button>
+        </div>
+      </div>
+
+      <!-- Container for all list items  -->
+      <div id="data-container">
+        <ul id="data-list">
+        </ul>
+      </div>
+
+      <!-- Container for graph generation buttons -->
+      <div id = "generateContainer">
+        <div id="generate1-button">
+           <button id="generateCategory">Organize by category</button>
+        </div>
+
+        <div id="generate2-button">
+            <button id="generateDate">Organize by date</button>
+        </div>
+      </div>
+
+      <!-- Container for graphs -->
+      <div id = "graphContainer">
+        <div id = "graph1"></div>
+        <div id = "graph2"></div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</html>
