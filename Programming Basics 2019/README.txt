@@ -1,3 +1,7 @@
+Programming Basics 2019
+Languages Used: HTML, CSS, Javascript, D3
+
+
 In this final project, we created a Spending Log. This is a website where you can enter things you've spent money on, and it calculates your total expenditure based on category and date. In our code package, you can find the following files:
 
 index.html - This is the bare structure of our page. Each section of our page has been separated into its own div element. This is where you can find the input fields for new items and the structure for the spending list and buttons for the page. 
