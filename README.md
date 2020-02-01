@@ -1,4 +1,4 @@
-# Amaan Shahpurwala
+# Amaan Shahpurwala :bowtie:
 This GitHub is a showcase of my favorite projects. You can find the following files:
 
 ## :space_invader: 5D Fundamentals
