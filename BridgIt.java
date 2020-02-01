@@ -3,11 +3,9 @@
 
 Team: Amaan Shahpurwala & Ritika Ponna
 
-The goal of this game is to fill your row or column by clicking on the 
-white boxes. To win the game you must fill your row completely
-
-This project was assigned to us in our Fundamentals of Computer 
-Science 2 course.
+BrideIt is a simple game. Players click to place a continuous connected 
+path of bridges from one side of the board to the other while attempting 
+to block their opponent from doing the same.
 
 */
 import java.util.ArrayList;
