@@ -6,3 +6,7 @@ This folder contains the index file to the work done in my 5D Fundamentals class
 * Midterm Project: We were tasked to create a mobile app all in HTML code. 
 * Final Project:We had to create a responsive haiku poem.
 
+```
+The link to the original repository can be found [HERE](https://amaans1.github.io/5D-Fundies/)
+```
+
