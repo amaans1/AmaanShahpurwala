@@ -6,7 +6,19 @@ This folder contains the index file to the work done in my 5D Fundamentals class
 * Midterm Project: We were tasked to create a mobile app all in HTML code. 
 * Final Project:We had to create a responsive haiku poem.
 
+The link to the original repository can be found [HERE](https://amaans1.github.io/5D-Fundies/).
 ```
-The link to the original repository can be found [HERE](https://amaans1.github.io/5D-Fundies/)
+Languages Used: HTML & CSS
 ```
 
+## Spending Log
+For my Programming Basics class, my group created a Spending Log. You can enter your weekly expendeture in the given fields and the program will graph the results to see how you typically spend.
+```
+Languages Used: HTML, CSS, JavaScript, D3
+```
+
+## BridgIt
+This file is a coded version of the classic game BridgIt. 
+```
+Languages Used: Java
+```
